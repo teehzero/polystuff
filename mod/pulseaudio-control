@@ -1,0 +1,7 @@
+[module/pulseaudio-control]
+type = custom/script
+tail = true
+label=%output%
+exec = ~/.config/polybar/mod/scripts/pulseaudio-control.sh --listen
+click-left = exec pavucontrol &
+label-font = 6

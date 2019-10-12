@@ -1,0 +1,11 @@
+include-file = ~/.config/polybar/mod/spotify
+include-file = ~/.config/polybar/mod/wlan
+include-file = ~/.config/polybar/mod/i3
+include-file = ~/.config/polybar/mod/eth
+include-file = ~/.config/polybar/mod/date
+include-file = ~/.config/polybar/mod/battery
+include-file = ~/.config/polybar/mod/powermenu
+include-file = ~/.config/polybar/mod/cpu
+include-file = ~/.config/polybar/mod/memory
+include-file = ~/.config/polybar/mod/updates-arch-combined
+include-file = ~/.config/polybar/mod/pulseaudio-control

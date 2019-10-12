@@ -1,0 +1,17 @@
+[module/date]
+type = internal/date
+interval = 1
+
+date =
+date-alt = " %m/%d/%Y "
+
+time = %H:%M
+time-alt = %H:%M:%S
+
+format-prefix = 
+format-foreground = #bbbbbb
+format-background = #416269
+format-padding = 2
+
+label-font = 4
+label = %date% %time%
