@@ -1,7 +1,23 @@
 ;variable declaration
 [color]
-fore = #c5c8c6
-back = #1e1e20
+
+activeback = #775058
+activefore = #FFDDEE
+inactiveback = #3A2A36
+inactivefore = #683E4F
+visback = #775058
+visfore = #8E837C
+
+fore = #FFBBCC
+darken = #55771F5D
+back = #191716
+
+#loadramp1
+#loadramp2
+#loadramp3
+#loadramp4
+#loadramp5
+
 [bar/top]
 enable-ipc = true
 width = 100%

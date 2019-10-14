@@ -4,10 +4,10 @@ interface = enp6s0
 interval = 3.0
 
 format-connected-padding = 2
-format-connected-foreground = #80969b
-format-connected-background = #1e1e20
+format-connected-foreground = ${color.fore}
+format-connected-background = ${color.back}
 format-connected-prefix = " "
-format-connected-prefix-foreground = #80969b
+format-connected-prefix-foreground = ${color.fore}
 label-connected = %local_ip%
 
 format-disconnected =

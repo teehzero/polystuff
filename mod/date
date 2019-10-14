@@ -2,15 +2,15 @@
 type = internal/date
 interval = 1
 
-date =
-date-alt = " %m/%d/%Y "
+date = "  %m/%d    "
+date-alt = "  %m/%d/%y    "
 
-time = %H:%M
-time-alt = %H:%M:%S
+time = "  %H:%M"
+time-alt = "  %H:%M:%S"
 
-format-prefix = 
-format-foreground = #bbbbbb
-format-background = #416269
+format-prefix =
+format-foreground = ${color.fore}
+format-background = ${color.inactiveback}
 format-padding = 2
 
 label-font = 4

@@ -6,11 +6,11 @@ expand-right = true
 format-spacing = 1
 
 label-open = ⏻
-label-open-foreground = #56737a
+label-open-foreground = ${color.fore}
 label-close = 
-label-close-foreground = #56737a
+label-close-foreground = ${color.fore}
 label-separator = |
-label-separator-foreground = #80969b
+label-separator-foreground = ${color.darken}
 
 menu-0-0 = reboot
 menu-0-0-exec = menu-open-12

@@ -4,8 +4,8 @@ interface = enp6s0
 interval = 3.0
 
 format-connected = <label-connected>
-format-connected-foreground = #80969b
-format-connected-background = #1e1e20
+format-connected-background = ${color.back}
+format-connected-foreground = ${color.fore}
 format-connected-padding = 0
 format-connected-prefix = " "
 label-connected = %essid%
@@ -17,4 +17,4 @@ ramp-signal-1 = 
 ramp-signal-2 = 
 ramp-signal-3 = 
 ramp-signal-4 = 
-ramp-signal-foreground = #1e1e20
+ramp-signal-foreground = ${color.fore}

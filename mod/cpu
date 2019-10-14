@@ -16,11 +16,11 @@ format = <label> <bar-load>
 label = ﬙
 
 bar-load-indicator =
-bar-load-width = 20
+bar-load-width = 10
 bar-load-foreground-0 = #55aa55
 bar-load-foreground-1 = #557755
 bar-load-foreground-2 = #f5a70a
 bar-load-foreground-3 = #ff5555
-bar-load-fill = ▐
-bar-load-empty = ▐
-bar-load-empty-foreground = #444444
+bar-load-fill = ﭳ
+bar-load-empty = ﭳ
+bar-load-empty-foreground = ${color.darken}

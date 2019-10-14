@@ -6,3 +6,4 @@ format-prefix-foreground = #393
 format = <label>
 label-font = 6
 exec = python /usr/share/polybar/scripts/spotify_status.py -f '{artist} - {song}'
+click-left = i3-msg workspace 11

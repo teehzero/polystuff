@@ -1,7 +1,7 @@
 [module/updates-arch-combined]
 type = custom/script
 format-prefix = ""
-format-prefix-foreground = #393
+format-prefix-foreground = ${color.fore}
 exec = ~/.config/polybar/mod/scripts/updates-arch-combined.sh
 click-left = exec pamac-manager &
 interval = 600
